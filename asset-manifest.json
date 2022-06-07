@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/arithmetic/static/css/main.23778c2c.css",
+    "main.js": "/arithmetic/static/js/main.a79025ed.js",
+    "static/js/787.fdf06db8.chunk.js": "/arithmetic/static/js/787.fdf06db8.chunk.js",
+    "static/media/Correct.png": "/arithmetic/static/media/Correct.40f5f55f9ef86662b4da.png",
+    "index.html": "/arithmetic/index.html",
+    "main.23778c2c.css.map": "/arithmetic/static/css/main.23778c2c.css.map",
+    "main.a79025ed.js.map": "/arithmetic/static/js/main.a79025ed.js.map",
+    "787.fdf06db8.chunk.js.map": "/arithmetic/static/js/787.fdf06db8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23778c2c.css",
+    "static/js/main.a79025ed.js"
+  ]
+}
