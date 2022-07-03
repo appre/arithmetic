@@ -1,1 +1,231 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"/><link rel="icon" href="/arithmetic/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" href="/arithmetic/logo192.png"/><link rel="manifest" href="/arithmetic/manifest.json"/><script defer="defer" src="/arithmetic/static/js/main.8c391dfa.js"></script><link href="/arithmetic/static/css/main.23778c2c.css" rel="stylesheet"></head><body><noscript>서비스를 이용하려면 자바스크립트 활성화가 필요합니다.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta 
+        name="keywords" 
+        content="사칙연산, 계산, 수학, 수학 연습, 계산 연습, 계산력, 연산력, 암산, 문제풀이, 연산, 산수, 더하기, 빼기, 곱하기, 나누기, 덧셈, 뺄셈, 곱셈, 나눗셈"
+    >
+    <meta
+        name="description"
+        content="덧셈, 뺄셈 등 사칙연산을 다양한 조건으로 간편히 연습할 수 있습니다."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="사칙연산 연습하기">
+    <meta property="og:site_name" content="사칙연산 연습하기">
+    <meta property="og:description" content="사칙연산을 연습할 수 있습니다.">
+    <meta property="og:url" content="https://appre.github.io/arithmetic/">
+
+    <link rel="canonical" href="https://appre.github.io/arithmetic/">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link rel="icon" href="/assets/favicon.ec579a2f.ico">
+    <link rel="manifest" href="data:application/json;base64,ew0KICAgICJuYW1lIjogIuyCrOy5meyXsOyCsCDsl7DsirXtlZjquLAiLA0KICAgICJzaG9ydF9uYW1lIjogIuyCrOy5meyXsOyCsCDsl7DsirXtlZjquLAiLA0KICAgICJpY29ucyI6IFsNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3g0OC5wbmciLA0KICAgICAgICAgICAgInNpemVzIjogIjQ4eDQ4IiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3g3Mi5wbmciLA0KICAgICAgICAgICAgInNpemVzIjogIjcyeDcyIiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3g5Ni5wbmciLA0KICAgICAgICAgICAgInNpemVzIjogIjk2eDk2IiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3gxNDQucG5nIiwNCiAgICAgICAgICAgICJzaXplcyI6ICIxNDR4MTQ0IiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3gxOTIucG5nIiwNCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3g1MTIucG5nIiwNCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInNyYyI6ICJpY29uX3gxMDI0LnBuZyIsDQogICAgICAgICAgICAic2l6ZXMiOiAiMTAyNHgxMDI0IiwNCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyINCiAgICAgICAgfQ0KICAgIF0sDQogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsDQogICAgInN0YXJ0X3VybCI6ICIvYXJpdGhtZXRpYyIsDQogICAgInRoZW1lX2NvbG9yIjogIiNmZmZmZmYiLA0KICAgICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLA0KICAgICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCINCn0=">
+
+    <title>사칙연산 연습하기</title>
+  <script type="module" crossorigin src="/assets/index.46067b9c.js"></script>
+  <link rel="stylesheet" href="/assets/index.b11f947a.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1>사칙연산 연습하기</h1>
+    </header>
+
+    <!-- Content -->
+    <main id="view">
+        <noscript>
+            <p>&#8251; 자바스크립트를 활성화하세요.</p>
+        </noscript>
+
+        <!-- Settings -->
+        <div id="settings" class="page-box">
+            <h2 class="page-title">연습 설정</h2>
+
+            <ul>
+                <!-- Questions Number -->
+                <li>
+                    문제 수:&nbsp;
+                    <input type="number" min="1" max="100" placeholder="1-100" id="settings-question-count">
+                </li>
+
+                <!-- Left Digit -->
+                <li>
+                    왼쪽 자릿수:&nbsp; 
+                    <select id="settings-left-digit">
+                        <option value="1">1자리</option>
+                        <option value="2">2자리</option>
+                        <option value="3">3자리</option>
+                        <option value="4">4자리</option>
+                    </select>
+
+                    <span class="checkbox">
+                        <input type="checkbox" id="settings-left-below" name="left-digit" checked>
+                        이하 포함
+                    </span>
+                </li>
+
+                <!-- Right Digit -->
+                <li>
+                    오른쪽 자릿수:&nbsp;  
+                    <select id="settings-right-digit">
+                        <option value="1">1자리</option>
+                        <option value="2">2자리</option>
+                        <option value="3">3자리</option>
+                        <option value="4">4자리</option>
+                    </select>
+
+                    <span class="checkbox">
+                        <input type="checkbox" name="right-digit" id="settings-right-below" checked>
+                        이하 포함
+                    </span>
+                </li>
+
+                <!-- Operators -->
+                <li>
+                    연산 종류:&nbsp;
+                    <span class="checkbox">
+                        <input 
+                            type="checkbox" 
+                            id="settings-addition" 
+                            class="settings-operators" 
+                            data-operator="+" 
+                            checked
+                        >+
+                    </span>
+
+                    <span class="checkbox">
+                        <input 
+                            type="checkbox" 
+                            id="settings-subtraction" 
+                            class="settings-operators" 
+                            data-operator="-"
+                        >-
+                    </span>
+
+                    <span class="checkbox">
+                        <input 
+                            type="checkbox" 
+                            id="settings-multiplication" 
+                            class="settings-operators" 
+                            data-operator="*"
+                        >×
+                    </span>
+
+                    <span class="checkbox">
+                        <input 
+                            type="checkbox" 
+                            id="settings-division" 
+                            class="settings-operators" 
+                            data-operator="/"
+                        >÷
+                    </span>
+                </li>
+            </ul>
+            
+            <!-- Start Button -->
+            <button id="settings-start">연습 시작</button>
+        </div>
+
+        <!-- Questions Solving -->
+        <div id="solving" class="page-box">
+            <img id="solving-correct" src="/assets/Correct.a78f9d78.png">
+            <img id="solving-wrong" src="/assets/Wrong.1eaee7c0.png">
+
+            <nav id="solving-menu">
+                <button id="solving-stop" class="small-button">연습 그만하기</button>
+                <button id="solving-back" class="small-button">돌아가기</button>
+            </nav>
+
+            <h2 class="page-title">문제 <span id="solving-question-number">1</span>.</h2>
+
+            <div id="solving-question">37 + 78</div>
+
+            <div id="solving-answer-box">
+                <input 
+                    type="tel"
+                    id="solving-answer"
+                    placeholder="정답"
+                >
+
+                <input 
+                    type="tel"
+                    id="solving-quotient"
+                    placeholder="몫"
+                >
+                <input
+                    type="tel"
+                    id="solving-rest"
+                    placeholder="나머지"
+                >
+            </div>
+
+            <div id="solving-review-answer-box">
+                <input 
+                    type="tel"
+                    id="solving-review-answer"
+                    placeholder="정답"
+                >
+
+                <input 
+                    type="tel"
+                    id="solving-review-quotient"
+                    placeholder="몫"
+                >
+                <input
+                    type="tel"
+                    id="solving-review-rest"
+                    placeholder="나머지"
+                >
+            </div>
+
+            <div id="solving-buttons">
+                <button id="solving-submit">정답 제출</button>
+                <button id="solving-next">다음 문제</button>
+                <button id="solving-end">연습 종료</button>
+            </div>
+
+            <div id="solving-review-buttons">
+                <button id="solving-review-submit">정답 확인</button>
+                <button id="solving-review-before">이전 문제</button>
+                <button id="solving-review-back">다시 풀기</button>
+                <button id="solving-review-next">다음 문제</button>
+            </div>
+        </div>
+
+        <!-- Result -->
+        <div id="result" class="page-box">
+            <h2 class="page-title">결과</h2>
+
+            <div id="result-statistics">
+                푼 문제: <span id="result-count">30</span>
+                &nbsp;
+                정답: <span id="result-correct">27</span>
+                &nbsp;
+                오답: <span id="result-wrong">3</span>
+                &nbsp;
+                오답률: <span id="result-rate">10%</span>
+            </div>
+
+            <div id="result-numbers">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</div>
+
+            <div>
+                <button id="result-again">다시 연습하기</button>
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+</html>
