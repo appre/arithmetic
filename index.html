@@ -35,7 +35,7 @@
     <link rel="manifest" href="./manifest.json">
 
     <script>        
-        if (serviceWorker in navigator) {
+        if (navigator.serviceWorker) {
             navigator.serviceWorker.register(
                 'https://appre.github.io/arithmetic/serviceWorker.js',
                 {
