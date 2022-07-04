@@ -40,8 +40,8 @@
         }
     ],
     "display": "standalone",
-    "start_url": "/",
-    "scope": "/",
+    "start_url": "https://appre.github.io/arithmetic/",
+    "scope": "https://appre.github.io/arithmetic/",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "orientation": "portrait",
